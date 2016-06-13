@@ -1,0 +1,27 @@
+{
+  "name": "NumberConverter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "babel": {
+    "presets": ["es2015"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/batjko/NumberConverter"
+  },
+  "author": "batjko",
+  "license": "MIT",
+  "dependencies": {
+    "number-to-words": "^1.2.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
