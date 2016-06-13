@@ -1,4 +1,4 @@
-import convert from '../src/converter.js'
+import convert from '../src/converter'
 import { expect } from 'chai'
 
 describe('converter', () => {
