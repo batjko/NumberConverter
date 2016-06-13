@@ -34,4 +34,4 @@ Just switch to the following branch and start the server:
 git checkout apollo-webversion
 npm start
 ```
-Then open your browser at http://localhost:8080/graphql, and use the query shown above to convert your numbers.
+Then open your browser at [http://localhost:8080/graphql](http://localhost:8080/graphql), and use the query shown above to convert your numbers.
