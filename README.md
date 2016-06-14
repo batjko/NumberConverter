@@ -13,8 +13,9 @@ The conversion is done by the handy `number-to-words` package. ;)
 
 ## Usages
 
-1. (Master) branch: command line, using npm script to return converted values
+#### (Master) branch: Command Line  [![Build Status](https://travis-ci.org/batjko/NumberConverter.svg?branch=master)](https://travis-ci.org/batjko/NumberConverter)
 
+Using npm script to return converted values
 ```bash
 $ npm run convert [number]
 ```
@@ -25,8 +26,9 @@ $ npm run convert 123
 one hundred twenty-three
 ```
 
-2. (apollo-webversion) branch: GraphQL server, with one query available:
+#### (apollo-webversion) branch: GraphQL Server  [![Build Status](https://travis-ci.org/batjko/NumberConverter.svg?branch=apollo-webversion)](https://travis-ci.org/batjko/NumberConverter)
 
+With one query available:
 ![GraphQL query example](./screenshots/gql.jpg)
 
 Just switch to the following branch and start the server:
