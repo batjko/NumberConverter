@@ -1,4 +1,4 @@
-# NumberConverter
+# NumberConverter [![Known Vulnerabilities](https://snyk.io/test/github/batjko/NumberConverter/badge.svg)](https://snyk.io/test/github/batjko/NumberConverter)
 Quick test to convert numeric values to English phrasing on the command line or via a GraphQL service.
 We're using mocha and chai for basic test cases, and babel for ES6 sugar.
 The conversion is done by the handy `number-to-words` package. ;)
